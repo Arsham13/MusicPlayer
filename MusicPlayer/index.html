@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <script src="https://kit.fontawesome.com/a8e9c3020c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1 id="music-name">Music Name</h1>
+        <small id="singer">Singer Name</small>
+    </div>
+    <img id="music-img">
+    <p id="music-time">0:00 / 0:00</p>
+    <input type="range" value="0" id="music-range">
+    <div id="btns">
+        <p id="speed">1X</p>
+        <i id="rpt-btn" class="fas fa-redo-alt"></i>
+        <i id="pre-btn" class="fas fa-backward"></i>
+        <i id="play-btn" class="fas fa-play"></i>
+        <i id="next-btn" class="fas fa-forward"></i>
+        <div class="volume">
+            <i id="volume-btn" class="fas fa-volume-up"></i>
+            <input type="range" value="8" max="8" id="volume-range">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
